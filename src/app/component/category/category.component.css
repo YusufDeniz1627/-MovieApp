@@ -1,0 +1,11 @@
+.body{
+    margin:10px;
+    text-align: center;
+    border:none;
+}
+.category-button:hover{
+    transition: all 0.5s;
+    background:red;
+    color:white;
+    font-weight: 1000;
+}

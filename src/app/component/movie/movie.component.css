@@ -1,0 +1,14 @@
+.cards{
+    margin:10px;
+}
+html{
+    width:100%;
+    height:100%;
+}
+.button-body:hover{
+    transition: all 1s;
+    background:red;
+    border:none;
+    color:white;
+    text-align: center;
+}

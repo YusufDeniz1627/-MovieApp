@@ -1,0 +1,30 @@
+
+.container{
+    height:auto;
+}
+.items{
+    width:100%;
+    display:flex;
+    flex-direction:row;
+}
+.info{
+    margin: 20px; min-width: 25%
+}
+@media only screen and (max-width: 600px){
+    .items{
+        display:block;
+        flex-direction: column;
+    }
+    .container{
+        display:flex;
+        flex-direction: column;
+    }
+    .info{
+        margin:0;
+        margin-top:1rem;
+        width:100%;
+    }
+    .movie-title{
+        margin-top:1rem;
+    }
+}
